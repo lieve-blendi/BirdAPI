@@ -10,7 +10,6 @@ BirdAPI = {}
 BirdAPI.ver = currentver
 
 local MultiUpdate = {}
-local MultiBias = {}
 
 function BirdAPI.moverbias(amount)
   return function(cell, dir, x, y, vars, side, force, ptype)
